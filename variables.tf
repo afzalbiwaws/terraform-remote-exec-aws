@@ -6,6 +6,19 @@
 # AWS_ACCESS_KEY_ID
 # AWS_SECRET_ACCESS_KEY
 
+variable "AWS_ACCESS_KEY_ID" {
+  description = "AWS ACCESS KEY ID"
+  type        = string
+  default     = "AKIAJ2POR5YY455WM2HQ"
+}
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "AWS ACCESS KEY ID"
+  type        = string
+  default     = "Z+NznG3uCYDHdPBJBVhq2PKYe1EZqz9fqa6A06uM"
+}
+
+
 # ---------------------------------------------------------------------------------------------------------------------
 # REQUIRED PARAMETERS
 # You must provide a value for each of these parameters.
